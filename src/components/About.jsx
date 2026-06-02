@@ -82,7 +82,7 @@ const About = () => {
 
           <div>
             <h4 className='font-bold text-base text-gray-900 dark:text-white'>Mrs Diana Makumator</h4>
-            <p className='text-xs opacity-60 mt-0.5'>School Head & Managing Director</p>
+            <p className='text-xs opacity-60 mt-0.5'>School Head</p>
           </div>
         </motion.div>
 
