@@ -24,7 +24,7 @@ const About = () => {
   },
   {
     title: 'Our Core Value → Accountability',
-    desc: 'We seek to train our students to be faithful in all their endeavoursWe are committed to raising students to be honest and truthful with their teachers, parents and one another',
+    desc: 'We seek to train our students to be faithful in all their endeavours. We are committed to raising students to be honest and truthful with their teachers, parents and one another',
     icon: assets.problem_solving
   }
 ]
@@ -58,7 +58,7 @@ const About = () => {
             whileInView={{opacity: 1, x: 0}}
             transition={{duration: 0.5, delay: 0.2 }}
             viewport={{once: true}}
-        className='relative flex-shrink-0 w-48 h-48 sm:w-60 sm:h-60 rounded-2xl overflow-hidden shadow-lg border-4 border-white dark:border-gray-800'>
+        className='relative shrink-0 w-48 h-48 sm:w-60 sm:h-60 rounded-2xl overflow-hidden shadow-lg border-4 border-white dark:border-gray-800'>
           <img 
             src={assets.diana_mak || 'placeholder.com'} // Fallback if asset isn't ready
             alt="School Proprietor" 
